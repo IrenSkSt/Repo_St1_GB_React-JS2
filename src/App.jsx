@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import { Message } from './Message';
 
 function App() {
+  const name = "Филипп";
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +19,10 @@ function App() {
         >
           Learn React
         </a>
+
+
+        <Message name={name} />
+
       </header>
     </div>
   );
